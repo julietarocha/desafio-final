@@ -238,14 +238,6 @@
         margin: 0;
         padding: 0;
     }
-    /*INDEX*/
-    /*ENCABEZADO*/
-    .header{
-        background-color: #e4efe7;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
 /*LOGO*/
 .logo>img{
@@ -268,11 +260,6 @@
     display: inline-block;
 }
 
-/*SECCION*/
-.section-img-px{
-    width: 100%;
-    height: auto;
-}
 
 /*CONTANOS EL MOTIVO*/
 .div-h1{
