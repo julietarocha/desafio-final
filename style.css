@@ -10,7 +10,7 @@
 /*INDEX*/
 /*ENCABEZADO*/
 .header{
-    background-color: #e4efe7;
+    background-color: #C0D8C0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,12 +62,9 @@
 /*NOSOTROS*/
 
 /*RAMA 1*/
-.gradient-up{
-    background-image: linear-gradient (to top, #e4efe7, #EFEFEF);
-}
 
 .animation-logo:hover{
-    transform: scale(2);
+    transform: scale(1);
 }
 
 .section-us{
@@ -214,7 +211,7 @@
 .footer{
     font-family: 'Playfair Display', serif;
     color: #45595A;
-    background-color: #E4EFE7;
+    background-color: #C0D8C0;
     padding: 3% 0;
     line-height: 2;
     font-size: 20px;
