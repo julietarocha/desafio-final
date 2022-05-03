@@ -62,9 +62,9 @@
 /*NOSOTROS*/
 
 /*RAMA 1*/
-
-.animation-logo:hover{
-    transform: scale(1);
+.gradient{
+    background-image: linear-gradient(to top, #C0D8C0 #E4EFE7); 
+>>>>>>> rama-1
 }
 
 .section-us{
