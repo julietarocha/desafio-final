@@ -9,35 +9,20 @@
 }
 /*INDEX*/
 /*ENCABEZADO*/
-.header{
+
+.background-nav{
     background-color: #C0D8C0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
+.color-letter{
+    color: #45595a;
+}
 /*LOGO*/
-.logo>img{
-    padding: 15px 0 10px 15px;
+.logo-img{
+    padding: 5px 0 5px 15px;
     width: 40%;
 }
 
-/*MENU*/
-.menu{
-    width: 500px;
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.list>li{
-    font-family: 'Playfair Display', serif;
-    color: #45595a;
-    font-size: 15px;
-    list-style: none;  
-    display: inline-block;
-    padding: 10px;
-}
 
 /*SECCION*/
 .section-img-px{
@@ -60,11 +45,6 @@
 
 
 /*NOSOTROS*/
-
-/*RAMA 1*/
-.gradient{
-    background-image: linear-gradient(to top, #C0D8C0 #E4EFE7);
-}
 
 .section-us{
     display: flex;
@@ -151,32 +131,7 @@
 }
 
 
-/*GALERIA*/
-.gallery-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 300px;
-    gap: 15px;
-}
-
-.gallery-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.img-4{
-    grid-column-start: span 2;
-}
-
-.img-5{
-    grid-row-start: span 2;
-}
-
-.img-9{
-    grid-column-start: span 2;
-}
-
+/*GALERIA - PROYECTOS*/
 .music{
     padding: 15px 0 0 0;
 }
@@ -226,193 +181,6 @@
 }
 
 
-
-/*TABLET*/
-@media screen and (min-width: 451px) and (max-width: 960px){
-
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-/*LOGO*/
-.logo>img{
-    padding: 10px 0 10px 15px;
-    width: 35%;
-}
-
-/*MENU*/
-.menu{
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.list>li{
-    font-family: 'Playfair Display', serif;
-    color: #45595a;
-    font-size: 8px;
-    list-style: none;
-    display: inline-block;
-}
-
-
-/*CONTANOS EL MOTIVO*/
-.div-h1{
-    color: #45595a;
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-    background-color: #e4efe7;
-    padding: 5% 0 12% 0 ;
-    text-align: center;
-    line-height: 1,5; 
-}
-
-/*NOSOTROS*/
-.section-us{
-    display: flex;
-    justify-content: space-between;
-    object-fit: cover;
-}
-/*WEDDINGS*/
-.img-weddings-1{
-    width: 110px;
-    height: auto;
-}
-
-.p-weddings{
-    color: #45595A;
-    font-family: 'Playfair Display', serif;
-    font-size: 8px;
-    background-color: #E4EFE7;
-    text-align: justify;
-    padding: 4% 4% 4% 4%;
-}
-
-.img-wedding-2{
-    width: 110px;
-    height: auto;
-}
-
-/*FOTOGRAFOS*/
-.img-photographers-1{
-    width: 110px;
-    height: auto;
-}
-
-.p-photographers{
-    color: #45595A;
-    font-family: 'Playfair Display', serif;
-    font-size: 8px;
-    background-color: #E4EFE7;
-    text-align: justify;
-    padding: 7% 4% 0 4%;
-}
-
-.img-photographers-2{
-    width: 110px;
-    height: auto;
-}
-
-/*COCINEROS*/
-.img-chefs-1{
-    width: 110px;
-    height: auto;
-}
-.p-chefs{
-    color: #45595A;
-    font-family: 'Playfair Display', serif;
-    background-color: #E4EFE7;
-    padding: 7% 4% 0 4%;
-    text-align: justify;
-    font-size: 8px;
-}
-
-.img-chefs-2{
-    width: 110px;
-    height: auto;
-}
-
-/*DJ*/
-.img-dj-1{
-    width: 110px;
-    height: auto;
-}
-
-.p-dj{
-    color: #45595A;
-    font-family: 'Playfair Display', serif;
-    background-color: #E4EFE7;
-    text-align: justify;
-    padding: 7% 4% 0 4%;
-    font-size: 8px;
-}
-
-.img-dj-2{
-    width: 110px;
-    height: auto;
-}
-
-
-/*GALERIA*/
-.gallery-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 100px;
-    gap: 7px;
-}
-
-.gallery-img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.music{
-    padding: 2% 0 0 0;
-}
-
-
-/*TESTIMONIOS*/
-
-.section-testimonials{
-    color: #45595A;
-    font-family: 'Playfair Display', serif;
-    font-size: 10px;
-    text-align: justify;
-    display: flex;
-    justify-content: space-between;
-    object-fit: cover;
-}
-
-.img-testimonials{
-    width: 120px;
-    height: auto;
-}
-
-.p-testimonials{
-    background-color: #F5F5F5;
-    padding: 10% 10%;
-}
-
-
-
-
-/*PIE DE PAGINA*/
-.footer{
-    font-family: 'Playfair Display', serif;
-    color: #45595A;
-    background-color: #E4EFE7;
-    padding: 6% 0;
-    line-height: 2;
-    font-size: 13px;
-    text-align: center;
-}
-/*CIERRE DE TABLET*/
-}
-
-
-
 @media screen and (max-width: 450px) {
     
 /*CELULAR*/
@@ -421,33 +189,6 @@
     padding: 0;
 }
 /*INDEX*/
-/*ENCABEZADO*/
-.header{
-    background-color: #e4efe7;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/*LOGO*/
-.logo>img{
-padding: 10px 0 10px 15px;
-width: 30%;
-}
-
-/*MENU*/
-.menu{
-width: 30%;
-display: flex;
-justify-content: space-around;
-}
-
-.list>li{
-font-family: 'Playfair Display', serif;
-color: #45595a;
-font-size: 12px;
-list-style: none;
-}
 
 /*SECCION*/
 .section-img-px{
@@ -554,12 +295,6 @@ height: auto;
 
 
 /*GALERIA*/
-.gallery-img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
-
 .music{
 padding: 2% 0 0 0;
 }
