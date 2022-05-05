@@ -9,14 +9,22 @@
 }
 /*INDEX*/
 /*ENCABEZADO*/
+.header{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+}
 
 .background-nav{
     background-color: #C0D8C0;
 }
 
-.color-letter{
+.menu-list{
     color: #45595a;
+    font-family: 'Playfair Display', serif;
 }
+
 /*LOGO*/
 .logo-img{
     padding: 5px 0 5px 15px;
@@ -43,9 +51,7 @@
 }
 
 
-
 /*NOSOTROS*/
-
 .section-us{
     display: flex;
     justify-content: space-between;
@@ -168,10 +174,13 @@
     background-color: #C0D8C0;
     padding: 3% 0;
     line-height: 2;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
+.footer-info{
+    font-size: 10px;
+}
 
 .icons{
     width: 20%;
