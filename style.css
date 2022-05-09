@@ -9,12 +9,6 @@
 }
 /*INDEX*/
 /*ENCABEZADO*/
-.header{
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    left: 0%;
-}
 
 .background-nav{
     background-color: #C0D8C0;
@@ -190,39 +184,21 @@
 }
 
 
+/*CELULAR*/
 @media screen and (max-width: 450px) {
     
-/*CELULAR*/
 *{
     margin: 0;
     padding: 0;
 }
 /*INDEX*/
 
-/*SECCION*/
-.section-img-px{
-    width: 100%;
-    height: auto;
-}
-
 
 /*CONTANOS EL MOTIVO*/
 .div-h1{
-color: #45595a;
-font-family: 'Playfair Display', serif;
 font-size: 13px;
-background-color: #e4efe7;
-padding: 5% 0 12% 0 ;
-text-align: center;
-line-height: 1,5; 
 }
 
-/*NOSOTROS*/
-.section-us{
-display: flex;
-justify-content: space-between;
-object-fit: cover;
-}
 /*WEDDINGS*/
 .img-weddings-1{
 width: 110px;
@@ -230,11 +206,7 @@ height: auto;
 }
 
 .p-weddings{
-color: #45595A;
-font-family: 'Playfair Display', serif;
 font-size: 6px;
-background-color: #E4EFE7;
-text-align: justify;
 padding: 5% 4% 4% 4%;
 }
 
@@ -250,11 +222,7 @@ height: auto;
 }
 
 .p-photographers{
-color: #45595A;
-font-family: 'Playfair Display', serif;
 font-size: 6px;
-background-color: #E4EFE7;
-text-align: justify;
 padding: 9% 4% 0 4%;
 }
 
@@ -268,12 +236,9 @@ height: auto;
 width: 110px;
 height: auto;
 }
+
 .p-chefs{
-color: #45595A;
-font-family: 'Playfair Display', serif;
-background-color: #E4EFE7;
 padding: 8% 4% 0 4%;
-text-align: justify;
 font-size: 6px;
 }
 
@@ -289,10 +254,6 @@ height: auto;
 }
 
 .p-dj{
-color: #45595A;
-font-family: 'Playfair Display', serif;
-background-color: #E4EFE7;
-text-align: justify;
 padding: 9% 4% 0 4%;
 font-size: 6px;
 }
@@ -312,12 +273,7 @@ padding: 2% 0 0 0;
 /*TESTIMONIOS*/
 
 .section-testimonials{
-color: #45595A;
-font-family: 'Playfair Display', serif;
 font-size: 10px;
-text-align: justify;
-display: flex;
-justify-content: space-between;
 object-fit: cover;
 }
 
@@ -326,23 +282,11 @@ width: 125px;
 height: auto;
 }
 
-.p-testimonials{
-background-color: #F5F5F5;
-padding: 10% 10%;
-}
-
-
-
 
 /*PIE DE PAGINA*/
 .footer{
-font-family: 'Playfair Display', serif;
-color: #45595A;
-background-color: #E4EFE7;
 padding: 6% 0;
-line-height: 2;
 font-size: 11px;
-text-align: center;
 }
 
 /*CIERRE CELULAR*/
