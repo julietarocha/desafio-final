@@ -146,6 +146,8 @@
     text-align: justify;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    background-color: #F5F5F5;
 }
 
 .img-testimonials{
@@ -154,8 +156,7 @@
 }
 
 .p-testimonials{
-    background-color: #F5F5F5;
-    padding: 10% 10%;
+padding: 13% 10%;
 }
 
 
@@ -273,13 +274,17 @@ padding: 2% 0 0 0;
 /*TESTIMONIOS*/
 
 .section-testimonials{
-font-size: 10px;
+font-size: 8px;
 object-fit: cover;
 }
 
 .img-testimonials{
-width: 125px;
-height: auto;
+width: auto;
+height: 250px;
+}
+
+.p-testimonials{
+    padding: 12% 12%;
 }
 
 
