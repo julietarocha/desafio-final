@@ -47,6 +47,10 @@
 
 /*NOSOTROS*/
 
+.us-mobile-container{
+    display: none;
+}
+
 .section-us{
     display: flex;
     justify-content: space-between;
@@ -152,12 +156,12 @@
 }
 
 .img-testimonials{
-    width: 250px;
-    height: auto;
+    width: auto;
+    height: 356px;
 }
 
 .p-testimonials{
-padding: 13% 10%;
+padding: 10% 10%;
 }
 
 
@@ -204,15 +208,32 @@ font-size: 13px;
 }
 
 /*NOSOTROS*/
-
-.wedding-mobile{
-    display: flex;
-    justify-content: center;
+.section-us-container{
+    display: none;
 }
-.wed-photog{
-    width: 110px;
+
+.us-mobile{
+    color: #45595A;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-mobile{
+    width: 85px;
     height: auto;
 }
+
+.paragraph-mobile{
+    padding: 2% 3% 0 2%;
+    font-size: 7.5px;
+    text-align: justify;
+}
+
+
+
 
 /*WEDDINGS*/
 .img-weddings-1{
@@ -222,7 +243,7 @@ height: auto;
 
 .p-weddings{
 font-size: 7px;
-padding: 3% 3%;
+padding: 2% 2%;
 }
 
 .img-wedding-2{
@@ -238,7 +259,7 @@ height: auto;
 
 .p-photographers{
 font-size: 7px;
-padding: 3% 3%;
+padding: 2% 2%;
 }
 
 .img-photographers-2{
@@ -253,7 +274,7 @@ height: auto;
 }
 
 .p-chefs{
-padding: 3% 3%;
+padding: 2% 2%;
 font-size: 7px;
 }
 
@@ -269,7 +290,7 @@ height: auto;
 }
 
 .p-dj{
-padding: 3% 3%;
+padding: 2% 2%;
 font-size: 7px;
 }
 
@@ -288,7 +309,7 @@ padding: 2% 0 0 0;
 /*TESTIMONIOS*/
 
 .section-testimonials{
-font-size: 8px;
+font-size: 11px;
 object-fit: cover;
 }
 
@@ -298,7 +319,7 @@ height: 250px;
 }
 
 .p-testimonials{
-    padding: 12% 12%;
+    padding: 6% 6%;
 }
 
 
