@@ -46,6 +46,7 @@
 
 
 /*NOSOTROS*/
+
 .section-us{
     display: flex;
     justify-content: space-between;
@@ -178,7 +179,6 @@ padding: 13% 10%;
 }
 
 .icons{
-    width: 20%;
     display: flex;
     justify-content: space-around;
     padding: 3% 40% 0 40%;
@@ -193,11 +193,25 @@ padding: 13% 10%;
     padding: 0;
 }
 /*INDEX*/
-
+.menu-list{
+    display: flex;
+    justify-content: end;
+}
 
 /*CONTANOS EL MOTIVO*/
 .div-h1{
 font-size: 13px;
+}
+
+/*NOSOTROS*/
+
+.wedding-mobile{
+    display: flex;
+    justify-content: center;
+}
+.wed-photog{
+    width: 110px;
+    height: auto;
 }
 
 /*WEDDINGS*/
@@ -207,8 +221,8 @@ height: auto;
 }
 
 .p-weddings{
-font-size: 6px;
-padding: 5% 4% 4% 4%;
+font-size: 7px;
+padding: 3% 3%;
 }
 
 .img-wedding-2{
@@ -223,8 +237,8 @@ height: auto;
 }
 
 .p-photographers{
-font-size: 6px;
-padding: 9% 4% 0 4%;
+font-size: 7px;
+padding: 3% 3%;
 }
 
 .img-photographers-2{
@@ -239,8 +253,8 @@ height: auto;
 }
 
 .p-chefs{
-padding: 8% 4% 0 4%;
-font-size: 6px;
+padding: 3% 3%;
+font-size: 7px;
 }
 
 .img-chefs-2{
@@ -255,8 +269,8 @@ height: auto;
 }
 
 .p-dj{
-padding: 9% 4% 0 4%;
-font-size: 6px;
+padding: 3% 3%;
+font-size: 7px;
 }
 
 .img-dj-2{
