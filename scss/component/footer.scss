@@ -1,8 +1,9 @@
+@import '../base/variables';
 
 footer {
-    font-family: 'Playfair Display', serif;
-    color: #45595A;
-    background-color: #C0D8C0;
+    font-family: $font-family;
+    color: $color-texto;
+    background-color: $background-color-header-footer;
     padding: 3% 0;
     line-height: 2;
     font-size: 25px;

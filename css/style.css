@@ -1,18 +1,303 @@
-/* Error: expected ";".
- *   ,
- * 5 | section{
- *   |        ^
- *   '
- *   scss\component\nosotros.scss 5:8  @import
- *   scss\style.scss 4:9               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 5 \2502  section{\d\a   \2502         ^\a   \2575 \a   scss\\component\\nosotros.scss 5:8  @import\a   scss\\style.scss 4:9               root stylesheet';
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+* {
+  margin: 0;
+  padding: 0;
 }
+
+header nav {
+  background-color: #C0D8C0;
+}
+header nav div a img {
+  padding: 5px 0 5px 7px;
+  width: 170px;
+}
+header nav div div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+}
+
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+main section img {
+  width: 100%;
+  height: auto;
+  padding: 1px 0 0 0;
+}
+main div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  background-color: #E4EFE7;
+  padding: 5% 0 12% 0;
+  text-align: center;
+  line-height: 1, 5;
+}
+
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+footer {
+  font-family: "Playfair Display", serif;
+  color: #45595A;
+  background-color: #C0D8C0;
+  padding: 3% 0;
+  line-height: 2;
+  font-size: 25px;
+  text-align: center;
+}
+footer div {
+  font-size: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 40% 0 40%;
+}
+
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+/*--------------------PC--------------------*/
+section {
+  /*-----WEDDING-----*/
+  /*-----FOTOGRAFOS-----*/
+  /*-----COCINEROS-----*/
+  /*-----DJ-----*/
+}
+section div {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  background-color: #E4EFE7;
+  text-align: justify;
+  padding: 15% 6% 0 6%;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  background-color: #E4EFE7;
+  text-align: justify;
+  padding: 15% 6% 0 6%;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div div {
+  color: #45595A;
+  background-color: #E4EFE7;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  text-align: justify;
+  padding: 15% 6% 0 6%;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+section div div {
+  font-family: "Playfair Display", serif;
+  background-color: #E4EFE7;
+  color: #45595A;
+  font-size: 16px;
+  text-align: justify;
+  padding: 15% 6% 0 6%;
+}
+section div img {
+  width: 430px;
+  height: auto;
+}
+
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+section {
+  /*UNO*/
+  /*DOS*/
+  /*TRES*/
+  /*CUATRO*/
+  /*CINCO*/
+  /*SEIS*/
+}
+section div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4EFE7;
+}
+section div img {
+  width: auto;
+  height: 356px;
+}
+section div p {
+  padding: 10% 10%;
+}
+section div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4EFE7;
+}
+section div img {
+  width: auto;
+  height: 356px;
+}
+section div p {
+  padding: 10% 10%;
+}
+section div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4EFE7;
+}
+section div img {
+  width: auto;
+  height: 356px;
+}
+section div p {
+  padding: 10% 10%;
+}
+section div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4EFE7;
+}
+section div img {
+  width: auto;
+  height: 356px;
+}
+section div p {
+  padding: 10% 10%;
+}
+section div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4EFE7;
+}
+section div img {
+  width: auto;
+  height: 356px;
+}
+section div p {
+  padding: 10% 10%;
+}
+section div {
+  color: #45595A;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: justify;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4EFE7;
+}
+section div img {
+  width: auto;
+  height: 356px;
+}
+section div p {
+  padding: 10% 10%;
+}
+
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+
+/*# sourceMappingURL=style.css.map */
