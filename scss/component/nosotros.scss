@@ -1,0 +1,95 @@
+@import '../base.scss/variables'
+
+
+/*--------------------PC--------------------*/
+section{
+    /*-----WEDDING-----*/
+    div {
+        display: flex;
+        justify-content: $justify-content-us;
+        object-fit: $object-fit-us;
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+            div {
+                color: $color-texto;
+                font-family: $font-family;
+                font-size: $font-size-us;
+                background-color: $background-color;
+                text-align: $text-align-us;
+                padding: $padding-us;
+            }
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+    }
+    /*-----FOTOGRAFOS-----*/
+    div {
+        display: flex;
+        justify-content: $justify-content-us;
+        object-fit: $object-fit-us;
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+            div {
+                color: $color-texto;
+                font-family: $font-family;
+                font-size: $font-size-us;
+                background-color: $background-color;
+                text-align: $text-align-us;
+                padding: $padding-us;
+            }
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+    }
+    /*-----COCINEROS-----*/
+    div{
+        display: flex;
+        justify-content: $justify-content-us;
+        object-fit: $object-fit-us;
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+            div {
+                color: $color-texto;
+                background-color: $background-color;
+                font-family: $font-family;
+                font-size: $font-size-us;
+                text-align: $text-align-us;
+                padding: $padding-us;
+            }
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+    }
+    /*-----DJ-----*/
+    div {
+        display: flex;
+        justify-content: $justify-content-us;
+        object-fit: $object-fit-us;
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+            div {
+                font-family: $font-family;
+                background-color: $background-color;
+                color: $color-texto;
+                font-size: $font-size-us;
+                text-align: $text-align-us;
+                padding: $padding-us;
+            }
+            img {
+                width: $width-img-us;
+                height: $height-img-us;
+            }
+    }
+}
+
