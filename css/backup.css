@@ -8,7 +8,7 @@
     padding: 0;
 }
 /*INDEX*/
-/*ENCABEZADO*/
+/*ENCABEZADO
 
 .background-nav{
     background-color: #C0D8C0;
@@ -19,21 +19,21 @@
     font-family: 'Playfair Display', serif;
 }
 
-/*LOGO*/
+LOGO
 .logo-img{
     padding: 5px 0 5px 7px;
     width: 170px;
 }
+*/
 
-
-/*SECCION*/
+/*SECCION
 .section-img-px{
     width: 100%;
     height: auto;
     padding: 1px 0 0 0;
 }
 
-/*CONTANOS EL MOTIVO*/
+/*CONTANOS EL MOTIVO
 .div-h1{
     color: #45595a;
     font-family: 'Playfair Display', serif;
@@ -43,9 +43,10 @@
     text-align: center;
     line-height: 1,5; 
 }
+*/
 
 
-/*NOSOTROS*/
+/*NOSOTROS
 
 .us-mobile-container{
     display: none;
@@ -56,7 +57,7 @@
     justify-content: space-between;
     object-fit: cover;
 }
-/*WEDDINGS*/
+WEDDINGS
 .img-weddings-1{
     width: 430px;
     height: auto;
@@ -76,7 +77,7 @@
     height: auto;
 }
 
-/*FOTOGRAFOS*/
+FOTOGRAFOS
 .img-photographers-1{
     width: 430px;
     height: auto;
@@ -96,7 +97,7 @@
     height: auto;
 }
 
-/*COCINEROS*/
+COCINEROS
 .img-chefs-1{
     width: 430px;
     height: auto;
@@ -115,7 +116,7 @@
     height: auto;
 }
 
-/*DJ*/
+DJ
 .img-dj-1{
     width: 430px;
     height: auto;
@@ -136,13 +137,13 @@
 }
 
 
-/*GALERIA - PROYECTOS*/
+/*GALERIA - PROYECTOS
 .music{
     padding: 15px 0 0 0;
 }
+*/
 
-
-/*TESTIMONIOS*/
+/*TESTIMONIOS
 
 .section-testimonials{
     color: #45595A;
@@ -163,11 +164,11 @@
 .p-testimonials{
 padding: 10% 10%;
 }
+*/
 
 
 
-
-/*PIE DE PAGINA*/
+/*PIE DE PAGINA
 .footer{
     font-family: 'Playfair Display', serif;
     color: #45595A;
@@ -187,16 +188,16 @@ padding: 10% 10%;
     justify-content: space-around;
     padding: 3% 40% 0 40%;
 }
-
+*/
 
 /*CELULAR*/
 @media screen and (max-width: 450px) {
-    
+ /*   
 *{
     margin: 0;
     padding: 0;
 }
-/*INDEX*/
+/*INDEX
 .logo-img{
     width: 150px;
 }
@@ -206,7 +207,7 @@ padding: 10% 10%;
     justify-content: end;
 }
 
-/*CONTANOS EL MOTIVO*/
+/*CONTANOS EL MOTIVO
 .div-h1{
 font-size: 13px;
 }
@@ -231,7 +232,7 @@ font-size: 13px;
 }
 
 .paragraph-mobile{
-    padding: 2% 3% 0 2%;
+    padding: 0 0;
     font-size: 7.5px;
     text-align: justify;
 }

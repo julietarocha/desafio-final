@@ -11,6 +11,9 @@
   padding: 0;
 }
 
+header {
+  color: #45595A;
+}
 header nav {
   background-color: #C0D8C0;
 }
@@ -19,7 +22,6 @@ header nav div a img {
   width: 170px;
 }
 header nav div div {
-  color: #45595A;
   font-family: "Playfair Display", serif;
 }
 
@@ -63,10 +65,10 @@ footer {
   font-size: 25px;
   text-align: center;
 }
-footer div {
+footer div > footer-info {
   font-size: 10px;
 }
-footer div {
+footer .icons {
   display: flex;
   justify-content: space-around;
   padding: 3% 40% 0 40%;
@@ -80,96 +82,28 @@ footer div {
 /*general*/
 /*imagen*/
 /*parrafo*/
-/*--------------------PC--------------------*/
-section {
-  /*-----WEDDING-----*/
-  /*-----FOTOGRAFOS-----*/
-  /*-----COCINEROS-----*/
-  /*-----DJ-----*/
+.us-mobile-container {
+  display: none;
 }
-section div {
+
+.section-us {
   display: flex;
   justify-content: space-between;
   object-fit: cover;
 }
-section div img {
+
+.img-us {
   width: 430px;
   height: auto;
 }
-section div div {
+
+.p-us {
   color: #45595A;
   font-family: "Playfair Display", serif;
   font-size: 16px;
   background-color: #E4EFE7;
   text-align: justify;
-  padding: 15% 6% 0 6%;
-}
-section div img {
-  width: 430px;
-  height: auto;
-}
-section div {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
-section div img {
-  width: 430px;
-  height: auto;
-}
-section div div {
-  color: #45595A;
-  font-family: "Playfair Display", serif;
-  font-size: 16px;
-  background-color: #E4EFE7;
-  text-align: justify;
-  padding: 15% 6% 0 6%;
-}
-section div img {
-  width: 430px;
-  height: auto;
-}
-section div {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
-section div img {
-  width: 430px;
-  height: auto;
-}
-section div div {
-  color: #45595A;
-  background-color: #E4EFE7;
-  font-family: "Playfair Display", serif;
-  font-size: 16px;
-  text-align: justify;
-  padding: 15% 6% 0 6%;
-}
-section div img {
-  width: 430px;
-  height: auto;
-}
-section div {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
-section div img {
-  width: 430px;
-  height: auto;
-}
-section div div {
-  font-family: "Playfair Display", serif;
-  background-color: #E4EFE7;
-  color: #45595A;
-  font-size: 16px;
-  text-align: justify;
-  padding: 15% 6% 0 6%;
-}
-section div img {
-  width: 430px;
-  height: auto;
+  padding: 8% 6% 0 6%;
 }
 
 /*GENERAL*/
@@ -289,6 +223,11 @@ section div img {
 }
 section div p {
   padding: 10% 10%;
+}
+
+section {
+  width: 100%;
+  height: 300%;
 }
 
 /*GENERAL*/

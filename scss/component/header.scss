@@ -5,8 +5,10 @@
 }
 
 header {
+    color: $color-texto;
     nav {
         background-color: #C0D8C0;
+        
         div {
             a { 
                 img {
@@ -15,8 +17,8 @@ header {
                 }
             }
             div {
-                color: $color-texto;
                 font-family: $font-family;
+
             }
         }
     }
