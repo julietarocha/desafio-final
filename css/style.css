@@ -6,6 +6,12 @@
 /*general*/
 /*imagen*/
 /*parrafo*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -86,12 +92,6 @@ footer .icons {
   display: none;
 }
 
-.section-us {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
-
 .img-us {
   width: 430px;
   height: auto;
@@ -114,120 +114,35 @@ footer .icons {
 /*general*/
 /*imagen*/
 /*parrafo*/
-section {
-  /*UNO*/
-  /*DOS*/
-  /*TRES*/
-  /*CUATRO*/
-  /*CINCO*/
-  /*SEIS*/
+.section-testimonials, .section-us {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
 }
-section div {
+
+.section-testimonials {
   color: #45595A;
   font-family: "Playfair Display", serif;
   font-size: 15px;
   text-align: justify;
   text-align: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #E4EFE7;
 }
-section div img {
+
+.img-testimonials {
   width: auto;
   height: 356px;
 }
-section div p {
-  padding: 10% 10%;
-}
-section div {
-  color: #45595A;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  text-align: justify;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #E4EFE7;
-}
-section div img {
-  width: auto;
-  height: 356px;
-}
-section div p {
-  padding: 10% 10%;
-}
-section div {
-  color: #45595A;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  text-align: justify;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #E4EFE7;
-}
-section div img {
-  width: auto;
-  height: 356px;
-}
-section div p {
-  padding: 10% 10%;
-}
-section div {
-  color: #45595A;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  text-align: justify;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #E4EFE7;
-}
-section div img {
-  width: auto;
-  height: 356px;
-}
-section div p {
-  padding: 10% 10%;
-}
-section div {
-  color: #45595A;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  text-align: justify;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #E4EFE7;
-}
-section div img {
-  width: auto;
-  height: 356px;
-}
-section div p {
-  padding: 10% 10%;
-}
-section div {
-  color: #45595A;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  text-align: justify;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: #E4EFE7;
-}
-section div img {
-  width: auto;
-  height: 356px;
-}
-section div p {
+
+.p-testimonials {
   padding: 10% 10%;
 }
 
-section {
-  width: 100%;
-  height: 300%;
+.carrusel-container {
+  height: 400px;
+}
+
+.carrusel-img {
+  height: 100%;
 }
 
 /*GENERAL*/
@@ -238,5 +153,10 @@ section {
 /*general*/
 /*imagen*/
 /*parrafo*/
+.section-us, .section-testimonials {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */

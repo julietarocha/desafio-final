@@ -1,18 +1,20 @@
 @import '../base/variables';
+@import '../base/mixin';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 .us-mobile-container{
     display: none;
 }
 
 .section-us{
-    display: flex;
-    justify-content: $justify-content-us;
-    object-fit: $object-fit-us;
+    @extend %flex;
+
 }
 
 .img-us{
-    width: $width-img-us;
-    height: $height-img-us;
+    @include img (430px , auto);
 }
 
 .p-us{
