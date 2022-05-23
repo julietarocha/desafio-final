@@ -1,15 +1,19 @@
-@import '../scss/component/header.scss';
-@import '../scss/component/index.scss' ;
-@import '../scss/component/footer.scss' ;
-@import '../scss/component/nosotros.scss' ;
-@import '../scss/component/testimonios.scss';
-@import '../scss/component/proyectos.scss';
+/*-----COMPONENTES-----*/
+@import '../scss/component/header';
+@import '../scss/component/index';
+@import '../scss/component/nosotros';
+@import '../scss/component/proyectos';
+@import '../scss/component/testimonios';
+@import '../scss/component/footer';
+
+/*-----MOBILE-----*/
+@import '../scss/component/mediaqueries';
 
 
-
-@import '../scss/base/variables';
+/*-----BASE-----*/
 @import '../scss/base/extend';
-
+@import '../scss/base/mixin';
+@import '../scss/base/variables';
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 

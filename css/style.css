@@ -1,3 +1,4 @@
+/*-----COMPONENTES-----*/
 /*GENERAL*/
 /*US-NOSOTROS*/
 /*texto*/
@@ -6,6 +7,7 @@
 /*general*/
 /*imagen*/
 /*parrafo*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
@@ -62,32 +64,6 @@ main div {
 /*general*/
 /*imagen*/
 /*parrafo*/
-footer {
-  font-family: "Playfair Display", serif;
-  color: #45595A;
-  background-color: #C0D8C0;
-  padding: 3% 0;
-  line-height: 2;
-  font-size: 25px;
-  text-align: center;
-}
-footer div > footer-info {
-  font-size: 10px;
-}
-footer .icons {
-  display: flex;
-  justify-content: space-around;
-  padding: 3% 40% 0 40%;
-}
-
-/*GENERAL*/
-/*US-NOSOTROS*/
-/*texto*/
-/*imagen*/
-/*TESTIMONIOS*/
-/*general*/
-/*imagen*/
-/*parrafo*/
 .us-mobile-container {
   display: none;
 }
@@ -104,6 +80,15 @@ footer .icons {
   background-color: #E4EFE7;
   text-align: justify;
   padding: 8% 6% 0 6%;
+}
+
+.carrusel-container {
+  height: auto;
+  width: 100%;
+}
+
+.carrusel-img {
+  height: 100%;
 }
 
 /*GENERAL*/
@@ -137,12 +122,87 @@ footer .icons {
   padding: 10% 10%;
 }
 
-.carrusel-container {
-  height: 400px;
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+footer {
+  font-family: "Playfair Display", serif;
+  color: #45595A;
+  background-color: #C0D8C0;
+  padding: 3% 0;
+  line-height: 2;
+  font-size: 25px;
+  text-align: center;
+}
+footer div > footer-info {
+  font-size: 10px;
+}
+footer .icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 40% 0 40%;
 }
 
-.carrusel-img {
-  height: 100%;
+/*-----MOBILE-----*/
+/*GENERAL*/
+/*US-NOSOTROS*/
+/*texto*/
+/*imagen*/
+/*TESTIMONIOS*/
+/*general*/
+/*imagen*/
+/*parrafo*/
+@media screen and (max-widht: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav div div {
+    display: flex;
+    justify-content: end;
+  }
+
+  main section img {
+    width: 150px;
+  }
+  main div {
+    font-size: 13px;
+  }
+
+  .section-us-container {
+    display: none;
+  }
+
+  .us-mobile {
+    color: #45595A;
+    font-family: "Playfair Display", serif;
+    background-color: #E4EFE7;
+  }
+
+  .photo-mobile {
+    width: 85px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .paragraph-mobile {
+    padding: 2% 3% 0 2%;
+    font-size: 7.5px;
+    text-align: justify;
+  }
+}
+/*-----BASE-----*/
+.section-us, .section-testimonials {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
 }
 
 /*GENERAL*/
@@ -153,10 +213,5 @@ footer .icons {
 /*general*/
 /*imagen*/
 /*parrafo*/
-.section-us, .section-testimonials {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
 
 /*# sourceMappingURL=style.css.map */
