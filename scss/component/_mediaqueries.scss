@@ -29,27 +29,8 @@
         }
     }
 
-    .section-us-container{
-        display: none;
-    }
-
-    .us-mobile{
-        color: $color-texto;
-        font-family: $font-family;
-        background-color: $background-color;
-    }
-
-    .photo-mobile{
-        width: 85px;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    .paragraph-mobile{
-        padding: 2% 3% 0 2%;
-        font-size: 7.5px;
-        text-align: justify;
-    }
-
-
+img-us{
+    width: 30px;
+    height: auto;
+}
 }
