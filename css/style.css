@@ -171,7 +171,12 @@ footer .icons {
   /*NOSOTROS*/
   .section-us {
     display: flex;
-    justify-content: unset;
+    flex-direction: column;
+  }
+
+  .p-us {
+    font-size: 12px;
+    padding: 8% 6% 8% 6%;
   }
 
   .img-us {
