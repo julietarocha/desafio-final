@@ -61,8 +61,10 @@ main div {
 /*general*/
 /*imagen*/
 /*parrafo*/
-.us-mobile-container {
-  display: none;
+.section-us {
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
 }
 
 .img-us {
@@ -95,18 +97,15 @@ main div {
 /*general*/
 /*imagen*/
 /*parrafo*/
-.section-testimonials, .section-us {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
-
 .section-testimonials {
   color: #45595A;
   font-family: "Playfair Display", serif;
   font-size: 15px;
   text-align: justify;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
 }
 
 .img-testimonials {
@@ -168,14 +167,28 @@ footer .icons {
   main div {
     font-size: 13px;
   }
+
+  /*NOSOTROS*/
+  .section-us {
+    display: flex;
+    justify-content: unset;
+  }
+
+  .img-us {
+    width: 100%;
+    height: auto;
+  }
+
+  /*TESTIMONIOS*/
+  .section-testimonials {
+    font-size: 12px;
+  }
+
+  .p-testimonials {
+    padding: 5% 5%;
+  }
 }
 /*-----BASE-----*/
-.section-us, .section-testimonials {
-  display: flex;
-  justify-content: space-between;
-  object-fit: cover;
-}
-
 /*GENERAL*/
 /*US-NOSOTROS*/
 /*texto*/

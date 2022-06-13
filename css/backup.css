@@ -192,12 +192,12 @@ padding: 10% 10%;
 
 /*CELULAR*/
 @media screen and (max-width: 450px) {
- /*   
+ 
 *{
     margin: 0;
     padding: 0;
 }
-/*INDEX
+/*INDEX*/
 .logo-img{
     width: 150px;
 }
@@ -207,38 +207,12 @@ padding: 10% 10%;
     justify-content: end;
 }
 
-/*CONTANOS EL MOTIVO
+/*CONTANOS EL MOTIVO*/
 .div-h1{
 font-size: 13px;
 }
 
 /*NOSOTROS*/
-.section-us-container{
-    display: none;
-}
-
-.us-mobile{
-    color: #45595A;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: space-between;
-}
-
-.photo-mobile{
-    width: 85px;
-    height: auto;
-}
-
-.paragraph-mobile{
-    padding: 0 0;
-    font-size: 7.5px;
-    text-align: justify;
-}
-
-
-
 
 /*WEDDINGS*/
 .img-weddings-1{
@@ -288,7 +262,6 @@ width: 110px;
 height: auto;
 }
 
-/*DJ*/
 .img-dj-1{
 width: 110px;
 height: auto;
@@ -326,6 +299,7 @@ height: 250px;
 .p-testimonials{
     padding: 6% 6%;
 }
+
 
 
 /*PIE DE PAGINA*/

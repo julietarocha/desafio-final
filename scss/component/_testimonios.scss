@@ -1,5 +1,4 @@
 @import '../base/variables';
-@import '../base/extend';
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
@@ -9,7 +8,9 @@
     font-size: $font-size-testimonials;
     text-align: $text-align-testimonials;
     text-align: $text-align-testimonials-dos;
-    @extend %flex ;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
 }
 .img-testimonials{
     @include img (auto, 356px);

@@ -1,6 +1,7 @@
 @import '../base/variables';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
+
 @media screen and (max-widht: 450px) {
     *{
         margin: 0;
@@ -28,5 +29,25 @@
             font-size: 13px;
         }
     }
+
+    /*NOSOTROS*/
+.section-us{
+    display: flex;
+    justify-content: unset;
+}
+
+.img-us{
+    width: 100%;
+    height: auto;
+}
+
+/*TESTIMONIOS*/
+.section-testimonials{
+    font-size: 12px;
+}
+
+.p-testimonials{
+    padding: 5% 5%;
+}
 
 }

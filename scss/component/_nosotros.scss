@@ -1,16 +1,12 @@
 @import '../base/variables';
 @import '../base/mixin';
 
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-.us-mobile-container{
-    display: none;
-}
-
 .section-us{
-    @extend %flex;
-
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-us{
